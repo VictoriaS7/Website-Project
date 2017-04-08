@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MVT BitMoji Adventure</title>
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top" id="top">
+       <a href="https://lapcbcsvyrydyukv2017-vscoding.c9users.io/SnapChatHackathon/index.html"><img src="https://lapcbcsvyrydyukv2017-vscoding.c9users.io/SnapChatHackathon/Images/banner1.png" class="img-responsive center-block" style="height:50%; width:50%;" /></a>
+</nav>
+
+<!--Page Section 1-->
+    <div class="container one page1">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+            </ol>
+
+            
+            <div class="carousel-inner" role="listbox" id="body1">
+                <div class="item active">
+                    <img class="img-responsive center-block" src="https://render.bitstrips.com/v2/cpanel/10185206-202203481_5-s4-v1.png?transparent=1" alt="Travis1">
+                    <div class="carousel-caption">
+                        <h4 id="travisSlide">Create your own path in this decision based game</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="https://render.bitstrips.com/v2/cpanel/10211670-202204404_2-s4-v1.png?transparent=1" alt="AdventureVictoria">
+                    <div class="carousel-caption">
+                        <h4 id="VictoriaSlide">Fly over danger, but...</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="https://render.bitstrips.com/v2/cpanel/9669972-204422947_2-s4-v1.png?transparent=1" alt="MysteryMilo">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive center-block" src="https://render.bitstrips.com/v2/cpanel/9991246-202203481_5-s4-v1.png?transparent=1" alt="Flower">
+                    <div class="carousel-caption">
+                        <h4>Press Play Now!</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container two page1">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <button type="button" name="Play" id="playbutton" action="action sends user somewhere i think">Play</button>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1>What the Critics are saying...</h1>
+                
+            </div>
+        </div>
+        <div class="row review">
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/7834112-4055421_10-s1-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"Breathtaking."</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/10211763-102981754_0-s4-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"I was late to work over this game."</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/9946208-2203656_10-s4-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"Incredible!"</p>
+            </div>
+        </div>
+        <div class="row review">
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/10168906-188022860_2-s4-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"it was alright."</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/9188364-104678677_0-s4-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"Awesome!"</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-4 col-xs-offset-0">
+                <img src="https://render.bitstrips.com/v2/cpanel/9073886-121931325_0-s4-v1.png?transparent=1" class="img-responsive CritRev" />
+                <p class="CritRev">"Out of this world!"</p>
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 2-->
+    <div class="container three page2" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1 id="chooseYourAdventurer">Choose Your Bitmoji Adventurer!</h1>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-1">
+                <img src="http://www.thefatherhoodproject.org/media/profile-placeholder.gif" class="img-responsive" id="imgAvatar1" />
+            </div>
+            <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-6 col-xs-offset-1">
+                <p>Enter your personal Bitmoji Code Here: <input type="text" id="txtPersonalAvatar" /><button type="submit" id="btnPersonalAvatar" class="btn btn-secondary">Submit</button></p>
+
+                <a href="HowTo.html" target="_blank"><p id="CodeLink">Show me how to find my Bitmoji Code</p></a>
+                <br />
+
+                <p id="or">OR</p>
+                <br />
+                <p>Give me a random Bitmoji Adventurer to play the game</p>
+                <button type="button" id="btnRandomAvatar" class="btn btn-secondary">Random</button>
+                <br />
+                <br />
+                <button type="button" id="btnStartGame" class="btn btn-secondary">Let's Bounce!</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 3--First Level-->
+    <div class="container three page3" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Your story starts out just after you had a really rough day.<br />Why? We don't know. Use your imagination.</h1>
+                    <img class="img-responsive center-block" id="imgNPC3" />
+                <h1>Now you have your first decision to make. Are you..."</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id="imgAvatar3A" class="btn img-responsive center-block" /></a>
+                <h1>Going out?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id="imgAvatar3B" class="btn img-responsive center-block" /></a>
+                <h1>Or staying in?</h1>
+            </div>
+        </div>
+    </div>
+
+<!--Second Level-->
+<!--Page Section 4 (from Choice 3A)-->
+    <div class="container three page4" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>As you walk out your front door, a stranger pulls up and asks you...</h1>
+                    <img class="img-responsive center-block" id="imgNPC4" />
+                <h1>Now you have another decision to make. Do you?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar4A class="img-responsive center-block" /></a>
+                <h1>Afterall, A stranger is just a friend you haven't met yet, or</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar4B class="img-responsive center-block" /></a>
+                    <h1>You ignore this strange person in their strange car and walk away as fast as you can.</h1>
+</div>
+        </div>
+    </div>
+
+<!--Page Section 5 (from Choice 3B)-->
+    <div class="container three page5" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Now that you're staying in,</h1>
+                    <img class="img-responsive center-block" id="imgNPC5" />
+                <h1>Are you going to...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar5A" /></a>
+                    <h1>Start drinking?</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar5B" /></a>
+                    <h1>Or just go to sleep?</h1>
+</div>
+        </div>
+    </div>
+
+<!--Third Level-->
+<!--Page Section 6 (from Choice 4A)-->
+    <div class="container three page6" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>You and your new friend drive around town aimlessly until you come accross a new venue in town.</h1>
+                    <img class="img-responsive center-block" id="imgNPC6" />
+                <h1>Outside, a promoter is boisterously anouncing,<br /> "Come inside in check out the newest and hottest nightclub in town!" </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar6A class="img-responsive center-block" /></a>
+                    <h1>You hop out of the car and make your way for the door. The bouncer lets you skip the line and walk straight in cause you're a VIP tonight.</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar6B class="img-responsive center-block" /></a>
+                    <h1>You don't buy into all the hype and tell your ride to keep driving. You're sure to find something more interesting down the road.</h1>
+</div>
+        </div>
+    </div>
+
+    <!--Page Section 7 (from Choice 4B)-->
+    <div class="container three page7" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>After running for several blocks, you now find yourself in a very strange neighborhood.</h1>
+                <img class="img-responsive center-block" id="imgNPC7" />
+                <h1>Do you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar7A" /></a>
+                <h1>Ask a mysteriously cloaked person for directions?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar7B" /></a>
+                <h1>Or Wander into a nearby nuclear reactor to find someone to help? </h1>
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 8 (from Choice 5A)-->
+    <div class="container three page8" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>As you're just about to open your second bottle, you hear a knock at the door.</h1>
+                    <img class="img-responsive center-block" id="imgNPC8" />
+                <h1>It's your neighbor who dropped by to say hi. Do you?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar8A class="img-responsive center-block" /></a>
+                    <h1>Invite them in, of course! Now it's a party!</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <h1>With your buzz on you tell your nieghbor to buzz off.</h1>
+                <a href="#top"><input type="image" id=imgAvatar8B class="img-responsive center-block" /></a>
+</div>
+        </div>
+    </div>
+
+    <!--Page Section 9 (from Choice 5B)-->
+    <div class="container three page9" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>You violently awaken to hear that there is a loud pounding at your front door and also a piercing light that is seeping into your bedroom.</h1>
+                <img class="img-responsive center-block" id="imgNPC9" />
+                <h1>Do you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar9A" /></a>
+                <h1>Open the blinds to see what all the ruckus is outside?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar9B" /></a>
+                <h1>Answer the seemingly urgent pounding at your door?</h1>
+
+            </div>
+        </div>
+    </div>
+
+<!--Fourth Level-->
+<!--Page Section 10 (from Choice 6A)-->
+    <div class="container three page10" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Inside this nightclub are Debaucheries going on like you've never seen before in your life! It wild party with people who seemingly have no inhibitions.</h1>
+                    <img class="img-responsive center-block" id="imgNPC10" />
+                <h1>Do you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar10A class="img-responsive center-block" /></a>
+                    <h1>Join in the debauchery by <i>Making It Rain</i>, buying everyone you meet a drink, and <i>Party Like A Rockstar</i>!</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar10B class="img-responsive center-block" /></a>
+                    <h1>A little shocked by the wild and crazyness, you simply watch it all go down around you.</h1>
+
+</div>
+        </div>
+    </div>
+
+<!--Page Section 11 (from Choice 6B)-->
+    <div class="container three page11" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Down the road a little bit, you and your friend get stuck in traffic.<br />You see that there is some kind of accident that just happened and that people need help.</h1>
+                    <img class="img-responsive center-block" id="imgNPC11" />
+                <h1>You...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar11A" /></a>
+                    <h1>Jump out of the car and come to the rescue, or</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar11B" /></a>
+                    <h1>you say to yourself, "not my problem", and do nothing.</h1>
+
+</div>
+        </div>
+    </div>
+
+    <!--Page Section 12 (from Choice 7A)-->
+    <div class="container three page12" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>The cloaked stranger announces that they know the true path to your salvation, so thus, you begin to follow them.</h1>
+                <img class="img-responsive center-block" id="imgNPC12" />
+                <h1>After moving away more and more from what appears to be civilization you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar12A class="img-responsive center-block" /></a>
+                <h1>Express your gratitude, for you were lost, but not anymore.</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar12B class="img-responsive center-block" /></a>
+                <h1>A little creeped out, you tell them that you can find your way back from here.</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 13 (from Choice 7B)-->
+    <div class="container three page13" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>You enter the reactor to find someone, but instead, find ZOMBIES! ZOMBIES EVERYWHERE!!!</h1>
+                <img class="img-responsive center-block" id="imgNPC13" />
+                <h1>Now that you are seemingly surrounded, will you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar13A class="img-responsive center-block" /></a>
+                <h1>Fight. Fight for once in your damn life?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar13B class="img-responsive center-block" /></a>
+                <h1>Cower and run since it's been getting you by rather nicely thus far?</h1>
+
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 14 (from Choice 8A) -->
+    <div class="container three page14" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>The stranger decides to try something different, now that the wine is running out.</h1>
+                    <img class="img-responsive center-block" id="imgNPC14" />
+                <h1>Hey why not? Lets have some fun!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar14A" /></a>
+                    <h1>Hmmmm that's an unexpected vision quest! Hope one day you will figure out the meaning of this.</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" class="img-responsive" id="imgAvatar14B" /></a>
+                    <h1>Ooops...your vision quest got a little intense. Hope you know it's not real!</h1>
+
+</div>
+        </div>
+    </div>
+
+<!--Page Section 15 (from Choice 8B) -->
+    <div class="container three page15" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Looks like you want some alone time.</h1>
+                    <img class="img-responsive center-block" id="imgNPC15" />
+                <h1>After your unexpected guest leaves, what should you do...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar15A class="img-responsive center-block" /></a>
+                    <h1>Feeling hungry? or...</h1>
+
+</div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar15B class="img-responsive center-block" /></a>
+                    <h1>Movie time!</h1>
+
+</div>
+        </div>
+    </div>
+
+    <!--Page Section 16 (from Choice 9A)-->
+    <div class="container three page16" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>Without a moments notice you are teleported onto an alien spaceship! They seem to be taking you somewhere.</h1>
+                <img class="img-responsive center-block" id="imgNPC16" />
+                <h1>After no communication with the strange species do you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar16A class="img-responsive center-block" /></a>
+                <h1>Sit back and simply observe the phenomena going on in front of you?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar16B class="img-responsive center-block" /></a>
+                <h1>Disable their navigation systems after realizing that you aren't going to allow these aliens to come onto your planet and do as they please?</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 17 (from Choice 9B)-->
+    <div class="container three page17" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>An absolute monster appears in front of your eyes!</h1>
+                <img class="img-responsive center-block" id="imgNPC17" />
+                <h1>You have to make a decision, and quick! Do you...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar17A class="img-responsive center-block" /></a>
+                <h1>Quickly run back into your room, and slam the door shut?</h1>
+
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-5 col-xs-offset-1">
+                <a href="#top"><input type="image" id=imgAvatar17B class="img-responsive center-block" /></a>
+                <h1>Tell that monster that it came to the WRONG residence?</h1>
+
+            </div>
+        </div>
+    </div>
+
+<!--Fifth Level--Endings-->
+<!--Page Section 18 (from Choice 10A)-->
+    <div class="container three page18" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>You come to the next day on a couch in a strange place with absolutely no money left, no memory of what happend last night, a screaming hangover, and you're wearing someone else's clothes.</h1>
+                    <img class="img-responsive center-block" id="imgEnding18" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain18" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 19 (from Choice 10B)-->
+    <div class="container three page19" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>You had an amazing night and you saw things you've never seen or even hoped to see before. It was an experience you'll never forget.</h1>
+                    <img class="img-responsive center-block" id="imgEnding19" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain19" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 20 (from Choice 11A)-->
+    <div class="container three page20" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>Next morning you find that your acts of selfless bravery made the front page of the newspaper!<br /> You're the new town hero!</h1>
+                    <img class="img-responsive center-block" id="imgEnding20" />
+                <h1>Thanks for playing! The End</h1>
+                <br />
+                <button type="button" id="btnPlayAgain20" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 21 (from Choice 11B)-->
+    <div class="container three page21" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>You find yourself stuck in this traffic mess all night and wondering why you even went out tonight after such a rough day.</h1>
+                    <img class="img-responsive center-block" id="imgEnding21" />
+                <h1>Thanks for playing! The End</h1>
+                <br />
+                <button type="button" id="btnPlayAgain21" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 22 (from Choice 12A)-->
+    <div class="container three page22" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>You find yourself joining a close-knit community that places a high emphasis on brother and sisterhood, All hail the Night Mother!</h1>
+                <img class="img-responsive center-block" id="imgEnding22" />
+                <h1>The End! Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain22" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 23 (from Choice 12B)-->
+    <div class="container three page23" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>After lying to the cloaked stranger, you are now more lost than ever. You wonder why you had made the decision to lie... You find zero comfort in not finding any answers and are now ALONE.</h1>
+                <img class="img-responsive center-block" id="imgEnding23" />
+                <h1>The End! Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain23" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 24 (from Choice 13A)-->
+    <div class="container three page24" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>WOW! You somehow fight your way through the zombie horde and with your newfound confidence, you decide that you'll spend your life driving around trying to save others, much like the stranger you had turned down long, long, ago.</h1>
+                <img class="img-responsive center-block" id="imgEnding24" />
+                <h1>The End! Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain24" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 25 (from Choice 13B)-->
+    <div class="container three page25" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>Whew! You weasel your way through the horde and to get acquanted to this new zombie-infested world, you seek refuge in the sewer systems. Hey, maybe you'll even get used to the smell someday!</h1>
+                <img class="img-responsive center-block" id="imgEnding25" />
+                <h1>The End! Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain25" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 26 (from Choice 14A) -->
+    <div class="container three page26" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>But for now, just know that...</h1>
+                    <img class="img-responsive center-block" id="imgEnding26" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <br />
+                <button type="button" id="btnPlayAgain26" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+        </div>
+    </div>
+</div>
+
+<!--Page Section 27 (from Choice 14B) -->
+    <div class="container three page27" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>But you're glad to have had the trippy expereince.</h1>
+                    <img class="img-responsive center-block" id="imgEnding27" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain27" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 28 (from Choice 15A) -->
+    <div class="container three page28" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>After gorging, you feel pleasantly...</h1>
+                    <img class="img-responsive center-block" id="imgEnding28" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain28" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Page Section 29 (from Choice 15B) -->
+    <div class="container three page29" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                    <h1  id=chooseYourAdventurer>You enjoyed watching that movie, and all is well in your world.</h1>
+                    <img class="img-responsive center-block" id="imgEnding29" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain29" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 30-- (from Choice 16A)-->
+    <div class="container three page30" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>The aliens drop you off on your home moon and leave without mentioning why.</h1>
+                <img class="img-responsive center-block" id="imgEnding30" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain30" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 31 (from Choice 16B)-->
+    <div class="container three page31" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>You go back to your normal life. You try to tell your loved ones of your encounter of the fourth kind, although they simply mock your story and call you a "Spooky Mulder"... What does that even mean!?</h1>
+                <img class="img-responsive center-block" id="imgEnding31" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain31" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 32 (from Choice 17A)-->
+    <div class="container three page32" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>Your story starts out just after you had a really rough day. Why? We don't know...</h1>
+                <img class="img-responsive center-block" id="imgEnding32" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain32" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!--Page Section 33 (from Choice 17B)-->
+    <div class="container three page33" style="display:none; background-color:white;">
+        <div class="row">
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
+                <h1 id=chooseYourAdventurer>After assualting your landlord, you are admitted into a psychiactric hospital.</h1>
+                <img class="img-responsive center-block" id="imgEnding33" />
+                <h1>The End. Thanks for playing!</h1>
+                <br />
+                <button type="button" id="btnPlayAgain33" class="btn btn-secondary">Play Again</button>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+
+<!--Footer Section-->
+    <br />
+    <br />
+
+        <h2 style="color:white">Powered by...</h2>
+        <br />
+    <a href="https://www.bitmoji.com/account/"><img src="https://www.bitmoji.com/images/cd2a799a.logo.cache.png" class"img-responsive" /></a>
+    <br />
+    <br />
+    <br />
+    <br />
+            <footer class="footer">
+                <h4 style="color:white">
+                    © MVT 2016
+                </h4>
+            </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
