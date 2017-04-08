@@ -337,7 +337,7 @@ $(document).ready(function () {
             $(".page2").fadeIn(2000)
         });
 
-        //To Page 27 Vicky
+        //To Page 27
         $('#imgAvatar14B').click(function () {
             $(".page14").fadeOut();
             $(".page27").fadeIn(2000);
@@ -350,7 +350,7 @@ $(document).ready(function () {
             $(".page2").fadeIn(2000)
         });
 
-        //To Page 28 Vicky
+        //To Page 28
         $('#imgAvatar15A').click(function () {
             $(".page15").fadeOut();
             $(".page28").fadeIn(2000);
@@ -363,7 +363,7 @@ $(document).ready(function () {
             $(".page2").fadeIn(2000)
         });
 
-        //To Page 29 Vicky
+        //To Page 29
         $('#imgAvatar15B').click(function () {
             $(".page15").fadeOut();
             $(".page29").fadeIn(2000);
